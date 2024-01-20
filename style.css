@@ -5,7 +5,22 @@
   font-family: Arial, sans-serif;
 }
 .topnav {
-  display: inline
+  display: inline-block;
+  padding: 14px 16px;
+  background-color: #000000dd;
+  width: 100vw;
+}
+div a {
+  text-align: center;
+  color: antiquewhite;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+div a:hover{
+  background-color: #111;
+}
+.active{
+  background-color: rgba(8, 15, 34, 0.87);
 }
 #banner {
   height: 40vh;
