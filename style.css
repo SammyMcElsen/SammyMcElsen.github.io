@@ -4,6 +4,9 @@
   border: none;
   font-family: Arial, sans-serif;
 }
+.topnav {
+  display: inline
+}
 #banner {
   height: 40vh;
   width: 100vw;
