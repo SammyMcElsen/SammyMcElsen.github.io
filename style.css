@@ -1,43 +1,45 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  margin: 0px;
+  padding: 0px;
   border: none;
   font-family: Arial, sans-serif;
+  /*overflow-x: hidden;*/
+  font-size: 14px;
+  width: 100vw;
+  /*background-color: #232123;*/
 }
 .topnav {
-  display: inline-block;
-  padding: 14px 16px;
-  background-color: #000000dd;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #232123;
   width: 100vw;
 }
-div a {
+.topnav a {
+  padding: 14px 16px;
   text-align: center;
   color: antiquewhite;
-  padding: 14px 16px;
   text-decoration: none;
 }
-div a:hover{
+.topnav a:hover{
   background-color: #111;
 }
 .active{
   background-color: rgba(8, 15, 34, 0.87);
 }
-#banner {
-  height: 40vh;
-  width: 100vw;
-}
 .image-container {
   position: relative;
   display: inline-block;
+  height: fit-content;
+  width: 100vw;
 }
 .image-container img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 40vh;
 }
-.overlay-text {
+.image-container-overlay {
   position: absolute;
-  top: 30%; 
+  top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
   background-color: rgba(0, 0, 0, 0.614); 
@@ -46,15 +48,12 @@ div a:hover{
   font-size: 20px; 
   text-align: center;
 }
-body {
-  font-size: 14px;
-}
 .description {
   display: block;
   text-align: center;
-  padding: 25px;
+  padding: 25px 0px;
   width: 100vw;
-  background-color: #000000dd;
+  background-color: #232123;
   color: antiquewhite;
 }
 #page-description {
@@ -62,19 +61,29 @@ body {
 }
 #explanations {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #000000cd;
+  background-color: #333233;
   color: antiquewhite;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100vw;
+  text-align: center;
 }
-.title {
-  font-size: 30px;
+.box h1{
+  /*font-size: 30px;*/
   font-weight: bold;
+  text-align: center;
 }
 .explanation {
   font-size: 15px;
-  text-align: center;
   padding-top: 15px;
+  list-style-type: none;
+  width: 30vw;
+  text-align: center;
 }
-
+footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
