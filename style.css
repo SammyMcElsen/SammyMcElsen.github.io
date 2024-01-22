@@ -28,6 +28,7 @@ div a:hover{
 }
 .image-container {
   position: relative;
+  display: inline-block;
 }
 .image-container img {
   display: block;
@@ -36,14 +37,13 @@ div a:hover{
 }
 .overlay-text {
   position: absolute;
-  top: 50%; 
+  top: 30%; 
   left: 50%; 
-  transform: translate(-50%, -50%);  
-  background-color: #000000; 
-  opacity: .6;
-  color: #fff; 
-  padding: 10px 20px; 
-  font-size: 30px; 
+  transform: translate(-50%, -50%); 
+  background-color: rgba(0, 0, 0, 0.614); 
+  color: antiquewhite; 
+  padding: 50px 40px; 
+  font-size: 20px; 
   text-align: center;
 }
 body {
@@ -57,3 +57,24 @@ body {
   background-color: #000000dd;
   color: antiquewhite;
 }
+#page-description {
+  padding-top: 15px;
+}
+#explanations {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000cd;
+  color: antiquewhite;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.explanation {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+
