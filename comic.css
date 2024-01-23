@@ -7,6 +7,7 @@ body {
     font-size: 14px;
     width: 100%;
     background-color: #232123;
+    color: antiquewhite;
   }
   .topnav {
     display: flex;
@@ -25,6 +26,79 @@ body {
   }
   .active{
     background-color: rgba(8, 15, 34, 0.87);
+  }
+  .title{
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  #main-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  .history {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .facts {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .top-ten-list h2 {
+    padding-left: 10%;
+  }
+  .top-ten-list h3 {
+    padding-left: 10%;
+  }
+  .card-container {
+    width: 93vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+  }
+  .card-container a {
+    color: antiquewhite;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    background-color: #333233;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border: 2px #2f2e2f;
+    border-radius: 10px;
+    box-shadow: 2px 2px #292829;
+  }
+  .card-title {
+    width: 100%;
+    text-align: center;
+  }
+  .card-title a:hover {
+    color:rgb(255, 145, 0);
+  }
+  .card-content-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .card-image img {
+    height: 160px;
+    width: 110px;
+  }
+  .card-image img:hover {
+    filter: brightness(50%);
+  }
+  .card-content {
+    text-align: left;
+  }
+  .card-content ul {
+    list-style-type: none;
   }
   footer{
     display: flex;
