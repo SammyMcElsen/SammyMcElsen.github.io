@@ -26,3 +26,10 @@ body {
   .active{
     background-color: rgba(8, 15, 34, 0.87);
   }
+  footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: antiquewhite;
+  }
