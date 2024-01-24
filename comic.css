@@ -35,20 +35,56 @@ body {
   #main-title{
     font-size: 60px;
     margin-bottom: 20px;
+    color: rgb(212, 172, 119);
   }
+  .title h1 {
+    color: rgb(222, 193, 155);
+  }
+  audio {
+    filter: sepia(20%) saturate(70%) grayscale(20) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
   .history {
     padding-left: 10%;
     padding-right: 10%;
+  }
+  .history h1 {
+    color: rgb(212, 172, 119);
+  }
+  .history h2 {
+    color: rgb(222, 193, 155);
+    margin-bottom: 30px;
   }
   .facts {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .facts h1 {
+    color: rgb(212, 172, 119);
+    margin-top: 40px;
+  }
+  .facts h2 {
+    color: rgb(222, 193, 155);
+    margin-bottom: 30px;
+  }
+  .facts ul {
+    color: antiquewhite;
+    font-size: 14px;
+  }
+  .facts ul h3 {
+    color: rgb(251, 222, 185);
+    font-size: 17px;
+  }
+  .top-ten-list h1 {
+    padding-left: 10%;
+    color: rgb(212, 172, 119);
+    margin-top: 40px;
+  }
   .top-ten-list h2 {
     padding-left: 10%;
-  }
-  .top-ten-list h3 {
-    padding-left: 10%;
+    color: rgb(222, 193, 155);
+    margin-bottom: 40px;
   }
   .card-container {
     width: 93vw;
