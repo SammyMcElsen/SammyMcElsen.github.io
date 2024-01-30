@@ -97,15 +97,50 @@ Each one of those comic-types has their indivitual page, where the targeted audi
 
 ## Testing
 
++ Tested the Webpages HTML multiple times with the offical validator.
++ Bugs found: 
+
+-audio and image file-names had spaces in them: removed the spacekeys and put underscores in its place
+Bug fixed!
+
+-some href's had stray trailing slashes in them: removed them completly
+Bug fixed!
+
+-forgot to add a trailing slash to close one h2 element: closed the element correctly
+Bug fixed!
+
+-stray title tag without function: deleted the tag completly
+Bug fixed!
+
+-forgot to add closing tag for one li element: closed the element corretly
+Bug fixed!
+
+-p elements as childs of ul elements: changed all p elements within ul elements into li elements
+Bug fixed!
+
++ Tested the Webpages CSS multiple times with the official validator.
++ No bugs or issues found
+
 ## Validator Testing
 
 + HTML
 
+No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2FSammyMcElsen.github.io%2Fmanhwa.html)
+
 + CSS
+
+No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FSammyMcElsen.github.io%2Fmanga.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Unfixed Bugs
 
+none
+
 ## Deployment
+
++ installed GitHub Desktop and VS Code to make changes and test locally.
++ pushed each change with GitHub
++ added to each commit a short describtion about what was changed or added before it being pushed
+The live link can be found here: (https://SammyMcElsen.github.io)
 
 ## Credits
 
