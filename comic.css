@@ -76,6 +76,9 @@ body {
     color: rgb(251, 222, 185);
     font-size: 17px;
   }
+  .answer {
+    list-style: none;
+  }
   .top-ten-list h1 {
     padding-left: 10%;
     color: rgb(212, 172, 119);
