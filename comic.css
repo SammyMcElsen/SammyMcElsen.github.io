@@ -43,7 +43,7 @@ body {
   audio {
     width: 200px;
     height: 25px;
-    padding-left: 100px;
+    padding-left: 650px;
 }
   .history {
     padding-left: 10%;
@@ -158,4 +158,5 @@ body {
     justify-content: center;}
     .card-content-wrapper {display: block;}
     .card-image {padding-left: 110px;}
+    audio {padding-left: 100px;}
   }

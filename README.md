@@ -84,11 +84,15 @@ Each one of those comic-types has their indivitual page, where the targeted audi
 + The Release Day
 + Possible Anime adaptations
 + A short description
+
 -Each card has the cover image for the first volume of the book. With that, the User will have an easier time to find the right Manga, Manhwa or Manhua if they deside to look for them online or in a bookstore/library.
+
 -Every booktitle is liked to an enternal webpage, where the User can find out more information about the work.
 
 ## Features left to implement
-+ 
+
++ Adding JavaScript code for automatically updating the Top-10 ranking
++ Adding JavaScript code to change the audio-player interface
 
 
 ## Testing
