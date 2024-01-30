@@ -41,9 +41,9 @@ body {
     color: rgb(222, 193, 155);
   }
   audio {
-    filter: sepia(20%) saturate(70%) grayscale(20) contrast(99%) invert(12%);
     width: 200px;
     height: 25px;
+    padding-left: 100px;
 }
   .history {
     padding-left: 10%;
@@ -150,4 +150,12 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     color: antiquewhite;
+  }
+  @media only screen and (max-width: 600px) {
+    .card {width: 80vw;
+    }
+    .card-container {width: 94vw;
+    justify-content: center;}
+    .card-content-wrapper {display: block;}
+    .card-image {padding-left: 110px;}
   }
