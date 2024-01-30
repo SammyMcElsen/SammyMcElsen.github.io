@@ -153,19 +153,31 @@ The live link can be found here: (https://SammyMcElsen.github.io)
 ### Content
 
 Information for history behind Manga : <https://en.wikipedia.org/wiki/Manga>
+
 Information for history behind Manhwa : <https://en.wikipedia.org/wiki/Manhwa>
+
 Information for history behind Manhua : <https://en.wikipedia.org/wiki/Manhua>
+
 Interesting facts about Manga: <https://www.domestika.org/en/blog/5986-5-interesting-facts-about-manga>
+
 Interesting facts about Manhwa: <https://www.reddit.com/r/Rle_15/comments/17hmzt7/fun_facts_about_manhwa/>
+
 Interesting facts about Manhua: <https://en.wikipedia.org/wiki/Manhua>
+
 Top-10 Manga: <https://gamerant.com/highest-rated-manga-myanimelist/>
+
 Top-10 Manhwa: <https://www.geeksforgeeks.org/top-10-manhwa-of-all-time/>
+
 Top-10 Manhua: <https://anilist.co/search/manga/top-manhua>
 
 ### Media
 
 Homepage banner image : <https://pixabay.com/photos/window-book-manga-732539/>
+
 Top-10-List images : all pictures are the offical cover images for the books, found on google images. No Copyright infringement due to the law of fair use. **Section 107 of the Copyright Act**
+
 Information about Fair Use: <https://copyrightalliance.org/faqs/what-is-fair-use/>
+
 Audio for Audio-Speaker: <https://play.ht/>
+
 Icon as favicon: <https://iconscout.com/icon/book-1217>
