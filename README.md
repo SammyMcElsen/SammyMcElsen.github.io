@@ -101,21 +101,27 @@ Each one of those comic-types has their indivitual page, where the targeted audi
 + Bugs found: 
 
 -audio and image file-names had spaces in them: removed the spacekeys and put underscores in its place
+
 Bug fixed!
 
 -some href's had stray trailing slashes in them: removed them completly
+
 Bug fixed!
 
 -forgot to add a trailing slash to close one h2 element: closed the element correctly
+
 Bug fixed!
 
 -stray title tag without function: deleted the tag completly
+
 Bug fixed!
 
 -forgot to add closing tag for one li element: closed the element corretly
+
 Bug fixed!
 
 -p elements as childs of ul elements: changed all p elements within ul elements into li elements
+
 Bug fixed!
 
 + Tested the Webpages CSS multiple times with the official validator.
